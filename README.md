@@ -24,6 +24,13 @@ in the the reverse order with a space between first name and last name.
 answer:
 fistname = input("What is your first name : ")
 lastname = input("What is your Last Name : ")
-print ("Hello  " + lname + " " + fname)
+print (lastname + " " + firstname)
+
+4. Write a Python program to find the volume of a sphere with diameter 12 cm.
+Formula: V=4/3 * π * r3
+
+answer:
+
+
 
 
