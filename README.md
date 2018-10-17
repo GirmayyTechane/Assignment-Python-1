@@ -11,7 +11,19 @@ in a comma-separated sequence on a single line.
 answer:
 
 y=[]
-for x in range(2,25):
+for x in range(2000,3201):
     if (x % 7 ==0) and (x % 5 !=0):
         y.append(str(x))
         print (','.join(y))
+        
+        
+        
+3. Write a Python program to accept the user's first and last name and then getting them printed
+in the the reverse order with a space between first name and last name.
+
+answer:
+fistname = input("What is your first name : ")
+lastname = input("What is your Last Name : ")
+print ("Hello  " + lname + " " + fname)
+
+
